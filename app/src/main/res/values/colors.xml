@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Custom Blue-Violet and White Theme Colors -->
+    <!-- Main color: rgb(68, 64, 183) = #4440B7 -->
+    <color name="primary_color">#4440B7</color>
+    <color name="primary_dark">#332F8A</color>
+    <color name="primary_light">#7A76E0</color>
+    <color name="primary_accent">#5551C7</color>
+
+    <!-- Legacy purple color names for compatibility -->
+    <color name="purple_primary">#4440B7</color>
+    <color name="purple_primary_dark">#332F8A</color>
+    <color name="purple_primary_light">#7A76E0</color>
+    <color name="purple_accent">#5551C7</color>
+    <color name="purple_200">#7A76E0</color>
+    <color name="purple_500">#4440B7</color>
+    <color name="purple_700">#332F8A</color>
+
+    <!-- Background Colors -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="surface_white">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_on_primary">#FFFFFF</color>
+</resources>

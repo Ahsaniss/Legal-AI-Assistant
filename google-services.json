@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631108188626",
+    "project_id": "legal-ai-chatbot-8ac95",
+    "storage_bucket": "legal-ai-chatbot-8ac95.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631108188626:android:2d9bb581c7ac69ee44f00b",
+        "android_client_info": {
+          "package_name": "com.example.legalaichatbot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQp4DTWl04x04t_97D04Eh8vHh7_g5W74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Legal AI Chatbot</string>
+
+    <!-- English Strings -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="logout">Logout</string>
+    <string name="send">Send</string>
+    <string name="clear_chat">Clear Chat</string>
+    <string name="legal_categories">Legal Categories</string>
+    <string name="change_language">Change Language</string>
+
+    <!-- Urdu Strings -->
+    <string name="login_ur">لاگ ان</string>
+    <string name="register_ur">رجسٹر</string>
+    <string name="email_ur">ای میل</string>
+    <string name="password_ur">پاس ورڈ</string>
+    <string name="full_name_ur">مکمل نام</string>
+    <string name="confirm_password_ur">پاس ورڈ کی تصدیق</string>
+    <string name="logout_ur">لاگ آؤٹ</string>
+    <string name="send_ur">بھیجیں</string>
+    <string name="clear_chat_ur">چیٹ صاف کریں</string>
+
+    <!-- Disclaimer -->
+    <string name="disclaimer_en">This chatbot provides general legal information only. It is not a substitute for professional legal advice. Please consult a qualified lawyer for specific legal matters.</string>
+    <string name="disclaimer_ur">یہ چیٹ بوٹ صرف عام قانونی معلومات فراہم کرتا ہے۔ یہ پیشہ ورانہ قانونی مشورے کا متبادل نہیں ہے۔ براہ کرم مخصوص قانونی معاملات کے لیے کسی قابل وکیل سے مشورہ کریں۔</string>
+</resources>
