@@ -107,23 +107,9 @@ This application aims to bridge the gap between legal knowledge and the general 
 ## 🏗 System Architecture
 
 ### High-Level Architecture
-User
-│
-│ Text / Voice Input
-
-Android UI (Jetpack Compose)
-│
-│ API Request
-
-AI Service Layer (Google Gemini)
-│
-│ AI Response
-
-ViewModel → UI State
-│
-│ Optional Storage
-
-Room / Firestore
+<p align="center">
+  <img src="screenshots/legal-ai-architecture.png" width="400" alt="Legal AI Assistant Logo"/>
+</p>
 
 
 
