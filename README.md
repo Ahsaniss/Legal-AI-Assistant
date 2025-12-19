@@ -1,253 +1,284 @@
-Legal AI Assistant (Android)
+# ⚖️ Legal AI Assistant – Android Application
 
-Legal AI Assistant is an advanced Android application that leverages Artificial Intelligence to provide users with accessible legal information through an interactive chat and voice-based interface. The application is designed to simplify complex legal concepts and allow users to ask legal questions in natural language, either by typing or speaking.
+📋 **Table of Contents**
+- [Overview](#-overview)
+- [Problem Statement](#-problem-statement)
+- [Key Features](#-key-features)
+- [Screenshots](#-screenshots)
+- [System Architecture](#-system-architecture)
+- [Tech Stack](#-tech-stack)
+- [System Requirements](#-system-requirements)
+- [Installation & Setup](#-installation--setup)
+- [Security & Privacy](#-security--privacy)
+- [Future Enhancements](#-future-enhancements)
+- [Academic Relevance](#-academic-relevance)
+- [Project Structure](#-project-structure)
+- [License](#-license)
+- [Contributing](#-contributing)
+- [Support](#-support)
 
-This project focuses on combining modern Android development, AI-powered natural language understanding, and voice technologies to create a smart, user-friendly legal assistance system.
+---
 
-⚠️ Disclaimer: This application provides legal information for educational and informational purposes only and does not replace professional legal advice.
+## 📖 Overview
+**Legal AI Assistant** is an Android application that uses Artificial Intelligence to provide users with easy access to legal information through chat and voice-based interaction. The app helps users understand complex legal concepts using simple, conversational language.
 
-📌 Problem Statement
+<p align="center">
+  <img src="screenshots/app_logo.png" width="200" alt="Legal AI Assistant Logo"/>
+</p>
 
+⚠️ **Disclaimer**  
+This application provides legal information for educational and informational purposes only and does not replace professional legal advice. Always consult a licensed legal professional for official guidance.
+
+---
+
+## 📌 Problem Statement
 Access to legal information is often limited due to:
 
-Complexity of legal language
+- Complex legal language  
+- High consultation costs  
+- Lack of awareness of legal rights  
+- Difficulty understanding legal procedures  
 
-High consultation costs
+This application aims to bridge the gap between legal knowledge and the general public using AI technology.
 
-Lack of awareness of basic legal rights
+---
 
-Many individuals struggle to understand legal procedures, documents, or terminology. There is a need for an intelligent system that can bridge the gap between legal knowledge and the general public using modern technology.
+## 🚀 Key Features
 
-🎯 Project Objectives
+### 🧠 AI-Powered Legal Chat
+- Ask legal questions in natural language  
+- Context-aware responses using **Google Gemini AI**  
+- Simple and structured answers  
 
-Provide instant AI-based responses to legal queries
+### 💬 Text-Based Chat Interface
+- Modern UI built with **Jetpack Compose**  
+- Persistent chat history  
+- Smooth and responsive experience  
 
-Enable voice-based interaction for better accessibility
+### 🎙 Voice Interaction
+- Speech-to-Text for user queries  
+- Text-to-Speech for AI responses  
+- Hands-free usage support  
 
-Simplify legal information using natural language
+### 🔐 User Management (Optional)
+- Firebase Authentication  
+- Secure login and sessions  
+- Cloud-based user data  
 
-Maintain user privacy and secure data handling
+### 💾 Data Storage
+- Room database for local storage  
+- DataStore Preferences for settings  
+- Firebase Firestore (optional cloud storage)  
 
-Build a scalable and modular Android architecture
+---
 
-🚀 Key Features
-🧠 AI-Powered Legal Chat
+## 🖼 Screenshots
+<p align="center">
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.16.00 PM.jpeg" width="250" alt="Chat Screen"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.16.00 PM (1).jpeg" width="250" alt="Voice Mode"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.59 PM (2).jpeg" width="250" alt="Settings Screen"/>
+</p>
+<p align="center">
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.59 PM.jpeg" width="250" alt="Chat Screen"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.59 PM.jpeg" width="250" alt="Voice Mode"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.59 PM (1).jpeg" width="250" alt="Settings Screen"/>
+</p>
+<p align="center">
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.58 PM.jpeg" width="250" alt="Chat Screen"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.58 PM (1).jpeg" width="250" alt="Voice Mode"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.57 PM.jpeg" width="250" alt="Settings Screen"/>
+</p>
 
-Ask legal questions in natural language
+---
 
-Context-aware AI responses
+## 🏗 System Architecture
 
-Structured and easy-to-understand replies
-
-💬 Text-Based Chat Interface
-
-Clean and modern chat UI
-
-Message history support
-
-Smooth scrolling conversation view
-
-🎙 Voice Interaction
-
-Speech-to-text input using mic button
-
-Optional text-to-speech (TTS) responses
-
-Hands-free interaction mode
-
-🔐 User Management (Optional)
-
-Firebase Authentication
-
-Secure user sessions
-
-Firestore-based data storage
-
-💾 Local & Cloud Storage
-
-DataStore Preferences for settings
-🏗 System Architecture
-High-Level Architecture
+### High-Level Architecture
 User
- │
- │ Text / Voice Input
- ▼
+│
+│ Text / Voice Input
+▼
 Android UI (Jetpack Compose)
- │
- │ API Request
- ▼
-AI Service Layer (Gemini API)
- │
- │ AI Response
- ▼
+│
+│ API Request
+▼
+AI Service Layer (Google Gemini)
+│
+│ AI Response
+▼
 ViewModel → UI State
- │
- │ Optional Storage
- ▼
+│
+│ Optional Storage
+▼
 Room / Firestore
 
-🧩 AI Workflow
+markdown
+Copy code
 
-User enters a legal query (text or voice)
+### AI Workflow
+1. User submits a legal query (text or voice)  
+2. Voice input is converted to text  
+3. Query is sent to the Gemini AI model  
+4. AI processes and generates a response  
+5. Response appears in the chat interface  
+6. Optional voice output via Text-to-Speech  
 
-Voice input is converted to text (Speech-to-Text)
+---
 
-Text query is sent to the Gemini AI model
+## 🛠 Tech Stack
 
-AI processes and generates a legal response
+### Android Development
+- **Language:** Kotlin (Primary), Java (Limited)  
+- **UI:** Jetpack Compose (Material 3)  
+- **Architecture:** MVVM  
+- **State Management:** ViewModel + StateFlow  
 
-Response is displayed as text
+### AI & Networking
+- Retrofit & OkHttp  
+- Google Gemini AI SDK  
 
-If voice mode is enabled, response is converted to speech (TTS)
+### Storage & Backend
+- Room Database  
+- DataStore Preferences  
+- Firebase Authentication & Firestore (Optional)  
 
-🎙 Voice Mode – UX Flow
+### Other Libraries
+- Coil (Image Loading)  
+- Android Speech API  
+- Android Text-to-Speech Engine  
 
-Tap microphone button to activate voice input
+---
 
-Visual mic animation indicates recording
+## 📋 System Requirements
 
-Captured speech is converted into text
+### Development Environment
+- Android Studio Narwhal 3 Feature Drop (2025.1.3+)  
+- JDK 17 or higher  
 
-AI generates response
+### Android Configuration
+- **minSdk:** 26 (Android 8.0)  
+- **targetSdk:** 34 (Android 14)  
+- **compileSdk:** 34  
 
-If voice reply mode is enabled, AI response is spoken aloud
+---
 
-User can switch voice mode on/off anytime
+## ⚙️ Installation & Setup
 
-🛠 Tech Stack
-Android
-
-Language: Kotlin (primary), Java (limited)
-
-UI Framework: Jetpack Compose (Material 3)
-
-Architecture: MVVM
-
-State Management: ViewModel + StateFlow
-
-Networking & AI
-
-API Client: Retrofit + OkHttp
-
-AI Model: Google Gemini
-(com.google.ai.client.generativeai)
-
-Storage
-
-Local: Room Database, DataStore Preferences
-
-Cloud: Firebase Firestore (optional)
-
-Other Libraries
-
-Image Loading: Coil
-
-Authentication: Firebase Auth
-
-Text-to-Speech: Android TTS
-
-Speech Recognition: Android Speech API
-
-📋 System Requirements
-Development Environment
-
-Android Studio Narwhal 3 Feature Drop | 2025.1.3
-
-JDK 17
-
-Android Configuration
-
-minSdk: 26
-
-targetSdk: 34
-
-compileSdk: 34
-
-⚙️ Installation & Setup
-1️⃣ Clone Repository
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Ahsaniss/Legal-AI-Assistant.git
 cd Legal-AI-Assistant
-
 2️⃣ Configure Gemini API Key
+Create or edit local.properties in the root directory:
 
-Create or edit local.properties (root directory):
-
+properties
+Copy code
 GEMINI_API_KEY=YOUR_API_KEY_HERE
-
-
-❗ Do NOT commit local.properties to GitHub.
+⚠️ Do not commit local.properties to GitHub
 
 3️⃣ Firebase Setup (Optional)
-
 Create a Firebase project
 
 Add Android app with correct applicationId
 
 Download google-services.json
 
-Place it inside the app/ folder
+Place it inside the app/ directory
 
-▶ Build & Run
-
+4️⃣ Build & Run
 Open project in Android Studio
 
 Sync Gradle files
 
-Run app on emulator or physical device
+Build the project
 
-🔐 Security & Privacy Considerations
+Run on emulator or physical device
 
-API keys are stored securely in local.properties
+🔐 Security & Privacy
+API keys stored securely in local.properties
 
-Sensitive files are excluded using .gitignore
+Firebase security rules protect user data
 
-User data is handled via Firebase security rules
+No sensitive legal data stored without consent
 
-No legal data is permanently stored without consent
+Encrypted AI API communication
 
 🔮 Future Enhancements
-
 Legal document upload & analysis (PDF, DOCX)
 
 Multi-language support
 
-Offline AI fallback responses
+Offline AI fallback
 
-Role-based access (Lawyer / Client)
+Lawyer / Client role-based access
 
 Court case tracking system
 
-Legal chatbot fine-tuned on local laws
+Jurisdiction-specific AI tuning
 
 🎓 Academic Relevance
-
 This project demonstrates:
 
 AI integration in mobile applications
 
 Voice-based human–computer interaction
 
-Secure Android app architecture
+Secure Android app architecture (MVVM)
 
-Real-world problem solving using AI
+Real-world legal problem solving
 
 Suitable for:
 
-Final Year Project (FYP)
+Final Year Projects (FYP)
 
-Research demonstration
+Android & AI portfolios
 
-AI & Android portfolio
+Research and internship evaluations
 
-⚠️ Disclaimer
-
-This application is not a substitute for professional legal services. The information provided is generated by an AI model and may not always be accurate or up to date. Users should consult a licensed legal professional for official legal advice.
-
+🗂 Project Structure
+bash
+Copy code
+Legal-AI-Assistant/
+├── app/
+│   ├── src/main/java/com/example/legalaiassistant/
+│   │   ├── data/           # Data layer
+│   │   ├── domain/         # Business logic
+│   │   ├── presentation/   # UI & ViewModels
+│   │   ├── di/             # Dependency Injection
+│   │   └── utils/          # Utilities
+│   ├── res/
+│   └── AndroidManifest.xml
+├── screenshots/
+├── build.gradle.kts
+├── settings.gradle.kts
+└── README.md
 📄 License
-
-Specify a license such as MIT or Apache-2.0, or state:
-
 All Rights Reserved © 2025 Muhammad Ahsan Raza
-Room database for local persistence
 
-Firestore for cloud-based data (if enabled)
+<p align="center"> <b>Built with ❤️ using modern Android development practices</b><br> <img src="https://img.shields.io/badge/Platform-Android-green"/> <img src="https://img.shields.io/badge/Language-Kotlin-blue"/> <img src="https://img.shields.io/badge/AI-Google%20Gemini-orange"/> <img src="https://img.shields.io/badge/Architecture-MVVM-purple"/> </p>
+🤝 Contributing
+This is a personal project. Suggestions and constructive feedback are welcome while respecting the project scope and license.
+
+📞 Support
+Check existing GitHub issues
+
+Review project documentation
+
+Ensure proper API key configuration
+
+markdown
+Copy code
+
+---
+
+✅ **This README is now perfectly formatted**  
+✅ Ready for **GitHub**, **FYP**, and **portfolio**  
+✅ Clean headings, proper code blocks, icons, and layout  
+
+If you want, I can also:
+- Add **collapsible screenshot sections**
+- Add **GitHub stats & badges**
+- Rewrite it for **university submission**
+- Create a **one-page project abstract**
+
+Just tell me 👌
