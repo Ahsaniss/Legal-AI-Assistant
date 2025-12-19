@@ -74,9 +74,19 @@ This app bridges the gap between legal knowledge and the general public using mo
 
 ## 🖼 Screenshots
 <p align="center">
-  <img src="screenshots/chat_screen.png" width="250" alt="Chat Screen"/>
-  <img src="screenshots/voice_mode.png" width="250" alt="Voice Mode"/>
-  <img src="screenshots/settings.png" width="250" alt="Settings Screen"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.16.00 PM.jpeg" width="250" alt="Chat Screen"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.16.00 PM (1).jpeg" width="250" alt="Voice Mode"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.59 PM (2).jpeg" width="250" alt="Settings Screen"/>
+</p>
+<p align="center">
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.59 PM (1).jpeg" width="250" alt="Chat Screen"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.59 PM.jpeg" width="250" alt="Voice Mode"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.58 PM.jpeg" width="250" alt="Settings Screen"/>
+</p>
+<p align="center">
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.58 PM (1).jpeg" width="250" alt="Chat Screen"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.57 PM.jpeg" alt="Voice Mode"/>
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.57 PM (2).jpeg" width="250" alt="Settings Screen"/>
 </p>
 
 ---
