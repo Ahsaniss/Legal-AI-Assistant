@@ -104,19 +104,18 @@ User
 Android UI (Jetpack Compose)
 │
 │ API Request
-▼
+
 AI Service Layer (Google Gemini)
 │
 │ AI Response
-▼
+
 ViewModel → UI State
 │
 │ Optional Storage
-▼
+
 Room / Firestore
 
-markdown
-Copy code
+
 
 ### AI Workflow
 1. User submits a legal query (text or voice)  
@@ -175,7 +174,7 @@ cd Legal-AI-Assistant
 Create or edit local.properties in the root directory:
 
 properties
-Copy code
+
 GEMINI_API_KEY=YOUR_API_KEY_HERE
 ⚠️ Do not commit local.properties to GitHub
 
@@ -269,8 +268,7 @@ Review project documentation
 
 Ensure proper API key configuration
 
-markdown
-Copy code
+
 
 ---
 
