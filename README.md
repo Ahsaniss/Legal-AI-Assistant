@@ -1,253 +1,35 @@
-Legal AI Assistant (Android)
+# ⚖️ Legal AI Assistant (Android)
 
-Legal AI Assistant is an advanced Android application that leverages Artificial Intelligence to provide users with accessible legal information through an interactive chat and voice-based interface. The application is designed to simplify complex legal concepts and allow users to ask legal questions in natural language, either by typing or speaking.
+Legal AI Assistant is an advanced Android application that leverages **Artificial Intelligence** to provide users with accessible legal information through an interactive **chat and voice-based interface**. The application is designed to simplify complex legal concepts and allow users to ask legal questions in **natural language**, either by typing or speaking.
 
-This project focuses on combining modern Android development, AI-powered natural language understanding, and voice technologies to create a smart, user-friendly legal assistance system.
+This project combines **modern Android development**, **AI-powered natural language understanding**, and **voice technologies** to create a smart, user-friendly legal assistance system.
 
-⚠️ Disclaimer: This application provides legal information for educational and informational purposes only and does not replace professional legal advice.
+---
 
-📌 Problem Statement
+## 📌 Problem Statement
 
 Access to legal information is often limited due to:
 
-Complexity of legal language
+- Complex legal terminology
+- Lack of legal awareness
+- High cost of professional legal consultation
+- Difficulty understanding legal procedures and documents
 
-High consultation costs
+Many individuals struggle to understand legal processes, rights, and documentation. There is a strong need for an intelligent system that can **bridge the gap between legal knowledge and the general public** using modern technology.
 
-Lack of awareness of basic legal rights
+---
 
-Many individuals struggle to understand legal procedures, documents, or terminology. There is a need for an intelligent system that can bridge the gap between legal knowledge and the general public using modern technology.
+## 🎯 Project Objectives
 
-🎯 Project Objectives
+- Provide AI-based answers to legal questions
+- Enable voice-based interaction for accessibility
+- Simplify complex legal concepts
+- Offer a user-friendly mobile experience
+- Maintain secure and scalable architecture
 
-Provide instant AI-based responses to legal queries
+---
 
-Enable voice-based interaction for better accessibility
+## 🏗 System Architecture
 
-Simplify legal information using natural language
+### High-Level Workflow
 
-Maintain user privacy and secure data handling
-
-Build a scalable and modular Android architecture
-
-🚀 Key Features
-🧠 AI-Powered Legal Chat
-
-Ask legal questions in natural language
-
-Context-aware AI responses
-
-Structured and easy-to-understand replies
-
-💬 Text-Based Chat Interface
-
-Clean and modern chat UI
-
-Message history support
-
-Smooth scrolling conversation view
-
-🎙 Voice Interaction
-
-Speech-to-text input using mic button
-
-Optional text-to-speech (TTS) responses
-
-Hands-free interaction mode
-
-🔐 User Management (Optional)
-
-Firebase Authentication
-
-Secure user sessions
-
-Firestore-based data storage
-
-💾 Local & Cloud Storage
-
-DataStore Preferences for settings
-🏗 System Architecture
-High-Level Architecture
-User
- │
- │ Text / Voice Input
- ▼
-Android UI (Jetpack Compose)
- │
- │ API Request
- ▼
-AI Service Layer (Gemini API)
- │
- │ AI Response
- ▼
-ViewModel → UI State
- │
- │ Optional Storage
- ▼
-Room / Firestore
-
-🧩 AI Workflow
-
-User enters a legal query (text or voice)
-
-Voice input is converted to text (Speech-to-Text)
-
-Text query is sent to the Gemini AI model
-
-AI processes and generates a legal response
-
-Response is displayed as text
-
-If voice mode is enabled, response is converted to speech (TTS)
-
-🎙 Voice Mode – UX Flow
-
-Tap microphone button to activate voice input
-
-Visual mic animation indicates recording
-
-Captured speech is converted into text
-
-AI generates response
-
-If voice reply mode is enabled, AI response is spoken aloud
-
-User can switch voice mode on/off anytime
-
-🛠 Tech Stack
-Android
-
-Language: Kotlin (primary), Java (limited)
-
-UI Framework: Jetpack Compose (Material 3)
-
-Architecture: MVVM
-
-State Management: ViewModel + StateFlow
-
-Networking & AI
-
-API Client: Retrofit + OkHttp
-
-AI Model: Google Gemini
-(com.google.ai.client.generativeai)
-
-Storage
-
-Local: Room Database, DataStore Preferences
-
-Cloud: Firebase Firestore (optional)
-
-Other Libraries
-
-Image Loading: Coil
-
-Authentication: Firebase Auth
-
-Text-to-Speech: Android TTS
-
-Speech Recognition: Android Speech API
-
-📋 System Requirements
-Development Environment
-
-Android Studio Narwhal 3 Feature Drop | 2025.1.3
-
-JDK 17
-
-Android Configuration
-
-minSdk: 26
-
-targetSdk: 34
-
-compileSdk: 34
-
-⚙️ Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/Ahsaniss/Legal-AI-Assistant.git
-cd Legal-AI-Assistant
-
-2️⃣ Configure Gemini API Key
-
-Create or edit local.properties (root directory):
-
-GEMINI_API_KEY=YOUR_API_KEY_HERE
-
-
-❗ Do NOT commit local.properties to GitHub.
-
-3️⃣ Firebase Setup (Optional)
-
-Create a Firebase project
-
-Add Android app with correct applicationId
-
-Download google-services.json
-
-Place it inside the app/ folder
-
-▶ Build & Run
-
-Open project in Android Studio
-
-Sync Gradle files
-
-Run app on emulator or physical device
-
-🔐 Security & Privacy Considerations
-
-API keys are stored securely in local.properties
-
-Sensitive files are excluded using .gitignore
-
-User data is handled via Firebase security rules
-
-No legal data is permanently stored without consent
-
-🔮 Future Enhancements
-
-Legal document upload & analysis (PDF, DOCX)
-
-Multi-language support
-
-Offline AI fallback responses
-
-Role-based access (Lawyer / Client)
-
-Court case tracking system
-
-Legal chatbot fine-tuned on local laws
-
-🎓 Academic Relevance
-
-This project demonstrates:
-
-AI integration in mobile applications
-
-Voice-based human–computer interaction
-
-Secure Android app architecture
-
-Real-world problem solving using AI
-
-Suitable for:
-
-Final Year Project (FYP)
-
-Research demonstration
-
-AI & Android portfolio
-
-⚠️ Disclaimer
-
-This application is not a substitute for professional legal services. The information provided is generated by an AI model and may not always be accurate or up to date. Users should consult a licensed legal professional for official legal advice.
-
-📄 License
-
-Specify a license such as MIT or Apache-2.0, or state:
-
-All Rights Reserved © 2025 Muhammad Ahsan Raza
-Room database for local persistence
-
-Firestore for cloud-based data (if enabled)
