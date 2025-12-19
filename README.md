@@ -88,6 +88,10 @@ This application aims to bridge the gap between legal knowledge and the general 
   <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.58 PM (1).jpeg" width="250" alt="Voice Mode"/>
   <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.57 PM.jpeg" width="250" alt="Settings Screen"/>
 </p>
+<p align="center">
+  <img src="screenshots/WhatsApp Image 2025-12-19 at 5.15.57 PM (2).jpeg" width="250" alt="Chat Screen"/>
+  <img src="WhatsApp Image 2025-12-19 at 5.15.57 PM (1).jpeg" width="250" alt="Voice Mode"/>
+</p>
 
 ---
 
