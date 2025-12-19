@@ -52,7 +52,9 @@ Access to legal information is often limited due to:
 This application aims to bridge the gap between legal knowledge and the general public using AI technology.
 
 ---
+## 🎥 App Demo Video
 
+https://github.com/Ahsaniss/Legal-AI-Assistant/screenshots/bandicam 2025-12-19 23-59-08-870.mp4
 ## 🚀 Key Features
 
 ### 🧠 AI-Powered Legal Chat
