@@ -100,7 +100,7 @@ This application aims to bridge the gap between legal knowledge and the general 
 User
 │
 │ Text / Voice Input
-▼
+
 Android UI (Jetpack Compose)
 │
 │ API Request
@@ -257,7 +257,6 @@ Legal-AI-Assistant/
 📄 License
 All Rights Reserved © 2025 Muhammad Ahsan Raza
 
-<p align="center"> <b>Built with ❤️ using modern Android development practices</b><br> <img src="https://img.shields.io/badge/Platform-Android-green"/> <img src="https://img.shields.io/badge/Language-Kotlin-blue"/> <img src="https://img.shields.io/badge/AI-Google%20Gemini-orange"/> <img src="https://img.shields.io/badge/Architecture-MVVM-purple"/> </p>
 🤝 Contributing
 This is a personal project. Suggestions and constructive feedback are welcome while respecting the project scope and license.
 
@@ -267,21 +266,10 @@ Check existing GitHub issues
 Review project documentation
 
 Ensure proper API key configuration
+---
 
 
 
 
 
-
-✅ **This README is now perfectly formatted**  
-✅ Ready for **GitHub**, **FYP**, and **portfolio**  
-✅ Clean headings, proper code blocks, icons, and layout  
-
-If you want, I can also:
-- Add **collapsible screenshot sections**
-- Add **GitHub stats & badges**
-- Rewrite it for **university submission**
-- Create a **one-page project abstract**
-
-Just tell me 👌
 
