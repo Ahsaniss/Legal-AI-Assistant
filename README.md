@@ -23,7 +23,7 @@
 **Legal AI Assistant** is an Android application that uses Artificial Intelligence to provide users with easy access to legal information through chat and voice-based interaction. The app helps users understand complex legal concepts using simple, conversational language.
 
 <p align="center">
-  <img src="Black and Brown Modern Simple Law Firm Logo (3).png" width="200" alt="Legal AI Assistant Logo"/>
+  <img src="screenshots/Black and Brown Modern Simple Law Firm Logo (3).png" width="200" alt="Legal AI Assistant Logo"/>
 </p>
 
 ⚠️ **Disclaimer**  
