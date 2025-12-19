@@ -54,7 +54,8 @@ This application aims to bridge the gap between legal knowledge and the general 
 ---
 ## 🎥 App Demo Video
 
-https://github.com/Ahsaniss/Legal-AI-Assistant/screenshots/bandicam 2025-12-19 23-59-08-870.mp4
+[![Watch Demo](https://img.youtube.com/vi/tNlRmMEVF8g/0.jpg)](https://youtu.be/tNlRmMEVF8g)
+
 ## 🚀 Key Features
 
 ### 🧠 AI-Powered Legal Chat
