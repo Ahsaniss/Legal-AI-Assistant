@@ -108,7 +108,7 @@ This application aims to bridge the gap between legal knowledge and the general 
 
 ### High-Level Architecture
 <p align="center">
-  <img src="screenshots/legal-ai-architecture.png" width="400" alt="Legal AI Assistant Logo"/>
+  <img src="screenshots/legal-ai-architecture.png" width="550" alt="Legal AI Assistant Logo"/>
 </p>
 
 
