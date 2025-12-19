@@ -54,7 +54,11 @@ This application aims to bridge the gap between legal knowledge and the general 
 ---
 ## 🎥 App Demo Video
 
-[![Watch Demo](https://img.youtube.com/vi/tNlRmMEVF8g/0.jpg)](https://youtu.be/tNlRmMEVF8g)
+<p align="center">
+  <a href="https://youtu.be/tNlRmMEVF8g" target="_blank">
+    <img src="https://img.youtube.com/vi/tNlRmMEVF8g/0.jpg" width="800"/>
+  </a>
+</p>
 
 ## 🚀 Key Features
 
