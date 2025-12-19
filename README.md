@@ -20,7 +20,17 @@
 ---
 
 ## 📖 Overview
-**Legal AI Assistant** is an Android application that uses Artificial Intelligence to provide users with easy access to legal information through chat and voice-based interaction. The app helps users understand complex legal concepts using simple, conversational language.
+**Legal AI Assistant** is an innovative Android application designed to make legal information accessible to everyone, regardless of their background. By leveraging advanced Artificial Intelligence, the app provides users with instant answers to legal queries in simple, conversational language. Users can interact with the app using both text-based chat and voice commands, making it convenient and user-friendly.
+The application aims to bridge the gap between complex legal jargon and everyday understanding by providing:
+Interactive Chat Interface: Users can ask legal questions naturally, and the AI responds with clear and concise explanations.
+Voice-Based Assistance: Speak your queries and receive spoken or text-based responses, enabling hands-free operation.
+Comprehensive Legal Knowledge: Covers various areas of law such as civil, criminal, family, property, and consumer law.
+Simplified Legal Concepts: Breaks down complicated legal terminology into plain, understandable language.
+Real-Time Responses: Provides instant answers to help users make informed decisions without delays.
+Resource Links: Suggests relevant legal documents, government portals, and reference materials for deeper understanding.
+User-Friendly Interface: Designed with a simple and intuitive layout for easy navigation by users of all ages.
+Secure and Private: Ensures user queries and data remain confidential and are not shared externally.
+This app is ideal for individuals seeking quick legal guidance, students studying law, and anyone interested in understanding their rights and responsibilities without the need for a lawyer for basic inquiries.
 
 <p align="center">
   <img src="screenshots/Capture.PNG" width="200" alt="Legal AI Assistant Logo"/>
