@@ -271,7 +271,7 @@ Ensure proper API key configuration
 
 
 
----
+
 
 ✅ **This README is now perfectly formatted**  
 ✅ Ready for **GitHub**, **FYP**, and **portfolio**  
